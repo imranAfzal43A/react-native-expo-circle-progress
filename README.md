@@ -10,10 +10,13 @@ It's a cross platform component to show circular progress indicator for mobile a
 ## Install and import package
 
 **Installation**
-``` jsx npm i react-native-expo-circle-progress```
+
+```npm i react-native-expo-circle-progress```
+
+
 **Import**
 
-```jsx import PercentageCircle from 'react-native-expo-circle-progress'; ```
+```import PercentageCircle from 'react-native-expo-circle-progress'; ```
 
 ## Example Percentage Circles
 
