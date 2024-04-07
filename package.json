@@ -1,0 +1,32 @@
+{
+  "name": "react-native-expo-circle-progress",
+  "version": "1.0.0",
+  "description": "This is a cross platform cricular progress indicator ",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranAfzal43A/react-native-circle-progress.git"
+  },
+  "keywords": [
+    "reactnative",
+    "circular",
+    "progress",
+    "indicator"
+  ],
+  "author": "https://github.com/imranAfzal43A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imranAfzal43A/react-native-circle-progress/issues"
+  },
+  "homepage": "https://github.com/imranAfzal43A/react-native-circle-progress#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "prop-types": "15.8.1"
+  }
+}
