@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, Text, StyleProp, TextStyle } from 'react-native';
 import PropTypes from 'prop-types';
-
 interface PercentageCircleProps {
     color?: string;
     bgcolor?: string;
@@ -14,7 +13,6 @@ interface PercentageCircleProps {
     disabledText?: string;
     children?: React.ReactNode;
 }
-
 const styles = StyleSheet.create({
     circle: {
         overflow: 'hidden',
@@ -48,7 +46,6 @@ const styles = StyleSheet.create({
         color: '#888',
     },
 });
-
 const PercentageCircle: React.FC<PercentageCircleProps> = ({
     color,
     bgcolor = '#e3e3e3',
@@ -63,7 +60,6 @@ const PercentageCircle: React.FC<PercentageCircleProps> = ({
 }) => {
     const [leftTransformerDegree, setLeftTransformerDegree] = useState('0deg');
     const [rightTransformerDegree, setRightTransformerDegree] = useState('0deg');
-
     useEffect(() => {
         let leftDegree = '0deg';
         let rightDegree = '0deg';
@@ -76,7 +72,6 @@ const PercentageCircle: React.FC<PercentageCircleProps> = ({
         setLeftTransformerDegree(leftDegree);
         setRightTransformerDegree(rightDegree);
     }, [percent]);
-
     if (disabled) {
         return (
             <View
@@ -92,7 +87,6 @@ const PercentageCircle: React.FC<PercentageCircleProps> = ({
             </View>
         );
     }
-
     return (
         <View
             style={[
@@ -179,7 +173,6 @@ const PercentageCircle: React.FC<PercentageCircleProps> = ({
         </View>
     );
 };
-
 PercentageCircle.propTypes = {
     color: PropTypes.string,
     bgcolor: PropTypes.string,
@@ -192,5 +185,4 @@ PercentageCircle.propTypes = {
     disabledText: PropTypes.string,
     children: PropTypes.node,
 };
-
 export default PercentageCircle;

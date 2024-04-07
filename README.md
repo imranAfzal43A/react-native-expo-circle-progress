@@ -7,6 +7,13 @@ It's a cross platform component to show circular progress indicator for mobile a
 
 ![WhatsApp Image 2024-04-07 at 6 07 49 AM](https://github.com/imranAfzal43A/react-native-circle-progress/assets/111197710/c48e3823-2143-444c-b77f-4e47a0403f01)
 
+## Install and import package
+
+**Installation**
+``` jsx npm i react-native-expo-circle-progress```
+**Import**
+
+```jsx import PercentageCircle from 'react-native-expo-circle-progress'; ```
 
 ## Example Percentage Circles
 
@@ -38,3 +45,18 @@ It's a cross platform component to show circular progress indicator for mobile a
 </PercentageCircle>
 <Text>50%</Text>
 ```
+
+## Props
+
+| Prop          | Description                          | Type      |
+|---------------|--------------------------------------|-----------|
+| color         | Color of the outer circle            | string    |
+| bgcolor       | Background color of the circle       | string    |
+| innerColor    | Color of the inner circle            | string    |
+| radius        | Radius of the circle                 | number    |
+| percent       | Percentage to display                | number    |
+| borderWidth   | Width of the circle's border         | number    |
+| textStyle     | Style for text inside the circle     | StyleProp<TextStyle> |
+| disabled      | Boolean to disable interaction       | boolean   |
+| disabledText  | Text to display when disabled        | string    |
+| children      | Additional content inside the circle | React.ReactNode |
