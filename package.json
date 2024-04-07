@@ -1,6 +1,6 @@
 {
   "name": "react-native-expo-circle-progress",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a cross platform cricular progress indicator ",
   "main": "index.tsx",
   "scripts": {
